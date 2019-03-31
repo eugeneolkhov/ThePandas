@@ -9,7 +9,7 @@ PPG (Photoplethysmographic) Signal is used to predict Respiratory Rate of patien
  
 Summary
 
-All intensive-care patients need to have respiratory rate measured every few hours in order to detect if any deteriorations in health are occurring. Most of the times, the respiratory rate is manually measured, though it can be prone to inaccurate results. Another way to measure it is to use a respiratory signal device. Still, both options are costly, require resources (which are limited) and can be difficult to use in low tech environments.
+All intensive-care patients need to have respiratory rate measured every few hours in order to detect if any deteriorations in health are occurring. Most of the time, the respiratory rate is manually measured, though it can be prone to inaccurate results. Another way to measure it is to use a respiratory signal device. Still, both options are costly, require resources (which are limited) and can be difficult to use in low tech environments.
 
 To overcome these, we have tested how well ECG and PPG can predict respiratory rate. Both ECG and PPG variables were transformed using Continuous Wavelet Transformation for localization of time-frequency, which is otherwise lost in the frequency domain. When comparing the transformed variables, it was determined that PPG is better at identifying the trend of the respiratory rate signal. The newly transformed PPG variable was then used as an input to an LSTM model, which identifies patterns in sequential data. As a result, peaks in predicted respiratory rate coincide with actual recorded respiratory rate fairly well on both train and testing data.
 
