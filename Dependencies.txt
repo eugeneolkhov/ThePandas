@@ -1,0 +1,24 @@
+Libraries and Dependencies:
+
+# import libraries
+import matplotlib.pyplot as plt
+import pandas as pd
+import math
+import pycwt as wavelet
+import numpy as np
+
+#Keras version 2.2.4
+#TensorFlow backend version 1.13.1
+
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import LSTM
+from keras.layers import Input
+
+from sklearn.preprocessing import MinMaxScaler
+
+#Data file
+
+https://www.dropbox.com/s/5j0r1c8phl4891e/bidmc_csv_zip.zip?dl=0
+
+Click direct download to obtain the zip file.
